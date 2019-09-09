@@ -1,0 +1,52 @@
+{
+	"camera": {
+		"origin": [-50, 120, -50]
+	},
+	"objects": [
+		{
+			"type": "ambient_light",
+			"color": [255, 255, 255],
+			"intensity": 0.05
+		},
+		{
+			"type": "light",
+			"origin": [100, 120, 150],
+			"color": [255, 255, 255],
+			"intensity": 50000
+		},
+		{
+			"type": "light",
+			"origin": [-100, 120, 150],
+			"color": [255, 255, 255],
+			"intensity": 50000
+		},
+		{
+			"type": "plane",
+			"origin": [0, -1, 0],
+			"color": [255, 20, 20],
+			"wavy_effect": true,
+			"checkerboard": {
+				"color": [20, 20, 255],
+				"size": 30
+			},
+			"specular": 0.2,
+			"shininess": 16
+		},
+		{
+			"type": "sphere",
+			"origin": [50, 10, 50],
+			"radius": 10,
+			"color": [43, 114, 229],
+			"reflective": 0.4,
+			"specular": 0.1,
+			"shininess": 64
+		},
+		{
+			"type": "sphere",
+			"origin": [25, 30, 40],
+			"radius": 10,
+			"color": [240, 55, 55],
+			"reflective": 0.2
+		}
+	]
+}

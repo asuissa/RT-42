@@ -1,0 +1,102 @@
+{
+	"camera": {
+		"origin": [0, 40, -50],
+		"rotation": [90, 0, 0],
+		"fov": 120
+	},
+	"fog":1000,
+	"objects": [
+		{
+			"type": "ambient_light",
+			"color": [255, 255, 255],
+			"intensity": 0.05
+		},
+		{
+			"type": "light",
+			"color": [255, 0, 0],
+			"origin": [0, 40, -50],
+			"intensity": 20000
+		},
+		{
+			"type": "light",
+			"color": [255, 0, 0],
+			"origin": [50, 0, 0],
+			"intensity": 200
+		},
+		{
+			"type": "light",
+			"color": [174, 127, 10],
+			"origin": [70, 400, 100],
+			"intensity": 20000000
+		},
+
+		{
+			"type": "light",
+			"color": [0, 0, 255],
+			"origin": [40, 40, -50],
+			"intensity": 10000
+		},
+		{
+			"type": "light",
+			"color": [0, 255, 0],
+			"origin": [-40, 80, -50],
+			"intensity": 10000
+		},
+		{
+			"type": "plane",
+			"origin": [0, -30, 0],
+			"color": [150, 150, 150]
+		},
+		{
+			"type": "csg_inter",
+			"origin": [0, 0, 0],
+			"color": [255, 255, 255],
+			"refractive": 1.5,
+			"refractive_factor": 0.9,
+			"bump": 1000,
+			"csg_left": {
+				"type": "sphere",
+				"origin": [20, 0, 0],
+				"color": [255, 255, 255],
+				"radius": 40
+			},
+			"csg_right": {
+				"type": "sphere",
+				"origin": [50, 0, 0],
+				"color": [255, 255, 255],
+				"radius": 40
+			}
+		},
+		{
+			"type": "csg_union",
+			"origin": [0, 0, -100],
+			"color": [255, 255, 255],
+			"bump": 20,
+			"refractive": 1.5,
+			"refractive_factor": 0.9,
+			"csg_left": {
+				"type": "sphere",
+				"origin": [20, 0, 0],
+				"color": [255, 255, 255],
+				"radius": 40
+			},
+			"csg_right": {
+				"type": "csg_sub",
+				"origin": [10, 0, 0],
+				"color": [0, 255, 255],
+				"csg_left": {
+					"type": "sphere",
+					"origin": [50, 0, 0],
+					"color": [255, 255, 255],
+					"radius": 40
+				},
+				"csg_right": {
+					"type": "cylinder",
+					"origin": [50, 0, 50],
+					"color": [255, 255, 255],
+					"radius": 15
+				}
+			}
+		}
+	]
+}

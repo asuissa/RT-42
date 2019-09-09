@@ -1,0 +1,25 @@
+{
+	"objects": [
+		{
+			"type": "ambient_light",
+			"color": [255, 255, 255],
+			"intensity": 0.05
+		},
+		{
+			"type": "light",
+			"origin": [0, 40, 0],
+			"color": [255, 255, 255],
+			"intensity": 1000
+		},
+		{
+			"type": "plane",
+			"origin": [0, -30, 0],
+			"color": [50, 50, 50]
+		},
+		{
+			"type": "trianglemesh",
+			"objfile_path": "trianglemesh/mobius.obj",
+			"color": [244, 179, 66]
+		}
+	]
+}

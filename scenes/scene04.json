@@ -1,0 +1,30 @@
+{
+	"camera": {
+		"origin": [0, 10, -40]
+	},
+	"objects": [
+		{
+			"type": "ambient_light",
+			"color": [255, 255, 255],
+			"intensity": 0.02
+		},
+		{
+			"type": "light",
+			"origin": [50, 40, -150],
+			"color": [255, 255, 255],
+			"intensity": 25000
+		},
+		{
+			"type": "plane",
+			"origin": [0, 0, 0],
+			"color": [70, 70, 245]
+		},
+		{
+			"type": "cone",
+			"angle": 45,
+			"origin": [0, 5, 0],
+			"color": [245, 230, 66],
+			"rotation": [90, 0, 0]
+		}
+	]
+}

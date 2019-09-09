@@ -1,0 +1,63 @@
+{
+	"camera": {
+		"origin": [0, 10, 0]
+	},
+	"objects": [
+		{
+			"type": "ambient_light",
+			"color": [255, 255, 255],
+			"intensity": 0.03
+		},
+		{
+			"type": "plane",
+			"origin": [0, 0, 0],
+			"normal": [0, -1, 0],
+			"color": [40, 40, 40],
+			"x_max": 71,
+			"y_max": 30
+		},
+		{
+			"type": "sphere",
+			"radius": 2,
+			"origin": [0, 10, 7],
+			"color": [222, 255, 255],
+			"checkerboard": {
+				"color": [55, 42, 127],
+				"size": 2
+			}
+		},
+		{
+			"type": "sphere",
+			"radius": 2,
+			"origin": [0, 10, -7],
+			"color": [225, 255, 0],
+			"perlin": [225, 0, 0]
+		},
+		{
+			"type": "sphere",
+			"radius": 2,
+			"origin": [-7, 10, 0],
+			"color": [0, 255, 255],
+			"wood": [255, 0, 0]
+		},
+		{
+			"type": "sphere",
+			"radius": 2,
+			"origin": [7, 10, 0],
+			"color": [0, 255, 255],
+			"wood": [0, 0, 255]
+		},
+		{
+			"type": "light",
+			"origin": [100, 450, 0],
+			"color": [255, 255, 255],
+			"intensity": 150000
+		},
+		{
+			"type": "light",
+			"origin": [-40, 45, 0],
+			"color": [255, 255, 255],
+			"intensity": 2000
+		}
+	]
+}

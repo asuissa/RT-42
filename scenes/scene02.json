@@ -1,0 +1,122 @@
+{
+	"camera": {
+		"origin": [0, 40, -90]
+	},
+	"objects": [
+		{
+			"type": "ambient_light",
+			"color": [255, 255, 255],
+			"intensity": 0.1
+		},
+		{
+			"type": "plane",
+			"origin": [0, 0, 0],
+			"color": [130, 130, 130],
+			"mirror": 1
+		},
+		{
+			"type": "plane",
+			"origin": [0, 100, 0],
+			"color": [30, 30, 30],
+			"rotation": [180, 0, 0],
+			"mirror": 1
+		},
+		{
+			"type": "plane",
+			"origin": [0, 0, 150],
+			"color": [50, 30, 240],
+			"rotation": [-90, 0, 0],
+			"mirror": 1
+		},
+		{
+			"type": "sphere",
+			"radius": 10,
+			"origin": [0, 20, 0],
+			"color": [230, 30, 30],
+			"shininess": 64,
+			"specular": 0.3
+		},
+		{
+			"type": "cylinder",
+			"radius": 15,
+			"origin": [-60, 0, -10],
+			"color": [160, 160, 160],
+			"rotation": [90, 0, 0]
+		},
+		{
+			"type": "cylinder",
+			"radius": 15,
+			"origin": [60, 0, -10],
+			"color": [160, 160, 160],
+			"rotation": [90, 0, 0]
+		},
+		{
+			"type": "cylinder",
+			"radius": 15,
+			"origin": [-60, 0, 110],
+			"color": [160, 160, 160],
+			"rotation": [90, 0, 0]
+		},
+		{
+			"type": "cylinder",
+			"radius": 15,
+			"origin": [60, 0, 110],
+			"color": [160, 160, 160],
+			"rotation": [90, 0, 0]
+		},
+		{
+			"type": "sphere",
+			"radius": 25,
+			"origin": [-60, 0, -10],
+			"color": [160, 160, 160]
+		},
+		{
+			"type": "sphere",
+			"radius": 25,
+			"origin": [60, 0, -10],
+			"color": [160, 160, 160]
+		},
+		{
+			"type": "sphere",
+			"radius": 25,
+			"origin": [-60, 0, 110],
+			"color": [160, 160, 160]
+		},
+		{
+			"type": "sphere",
+			"radius": 25,
+			"origin": [60, 0, 110],
+			"color": [160, 160, 160]
+		},
+		{
+			"type": "sphere",
+			"radius": 25,
+			"origin": [-60, 100, -10],
+			"color": [160, 160, 160]
+		},
+		{
+			"type": "sphere",
+			"radius": 25,
+			"origin": [60, 100, -10],
+			"color": [160, 160, 160]
+		},
+		{
+			"type": "sphere",
+			"radius": 25,
+			"origin": [-60, 100, 110],
+			"color": [160, 160, 160]
+		},
+		{
+			"type": "sphere",
+			"radius": 25,
+			"origin": [60, 100, 110],
+			"color": [160, 160, 160]
+		},
+		{
+			"type": "light",
+			"origin": [0, 90, 0],
+			"color": [255, 255, 255],
+			"intensity": 10000
+		}
+	]
+}
